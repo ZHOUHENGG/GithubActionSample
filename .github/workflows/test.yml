@@ -4,11 +4,13 @@ on: push
 
 jobs:
   build1:
+    name: ubuntu
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, world!"
 
   build2:
+    name: windows
     runs-on: windows-latest
     steps:
       - run: node --version
