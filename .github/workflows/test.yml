@@ -1,0 +1,13 @@
+on: push
+
+jobs:
+  build1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!"
+
+  build2:
+    runs-on: windoweds-latest
+    steps:
+      - run: node --version
+
