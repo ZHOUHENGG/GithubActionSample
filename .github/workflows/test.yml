@@ -9,7 +9,7 @@ jobs:
       - run: echo "Hello, world!"
 
   build2:
-    runs-on: windoweds-latest
+    runs-on: windows-latest
     steps:
       - run: node --version
 
